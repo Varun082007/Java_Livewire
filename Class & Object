@@ -1,0 +1,13 @@
+class Student {
+    int rollno = 30;
+    String name = "Varun";
+    void display(){
+        System.out.println("RollNo: " + rollno);
+        System.out.println("Name: " + name);
+    }
+
+    public static void main(String[] args) {
+        Student s1 = new Student();   
+        s1.display();                 
+    }
+}
