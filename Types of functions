@@ -1,0 +1,53 @@
+//No Arguments, No return value
+
+class Demo {
+  void greet(){
+    System.out.println("Hello");
+  }
+
+    public static void main(String[] args) {
+        Demo obj = new Demo();
+        obj.greet();
+    }
+}
+
+//No Arguments, With Return Value
+
+  class Demo {
+    int getNumber() {
+        return 10;
+    }
+
+    public static void main(String[] args) {
+        Demo obj = new Demo();
+        int num = obj.getNumber();
+        System.out.println(num);
+    }
+}
+
+//With Arguements, No Return Value
+
+  class Demo {
+    void add(int a, int b) {
+        System.out.println(a + b);
+    }
+
+    public static void main(String[] args) {
+        Demo obj = new Demo();
+        obj.add(5, 3);
+    }
+}
+
+//With Arguments, With Return Value
+
+  class Demo {
+    int multiply(int a, int b) {
+        return a * b;
+    }
+
+    public static void main(String[] args) {
+        Demo obj = new Demo();
+        int result = obj.multiply(4, 5);
+        System.out.println(result);
+    }
+  }
